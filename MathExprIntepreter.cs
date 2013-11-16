@@ -252,8 +252,23 @@ namespace MathExpr
             
             case AstNodeType.REAL:              
                 return ((NumAstNode)node).Value;
+                break;
+
+            case AstNodeType.INTEGER:
+
+                break;
+            
+            case AstNodeType.STRING:
+                break;
 
             case AstNodeType.ASSIGN:
+                CommonTree childNodeAssign = (CommonTree)node.GetChild(0);
+                if (!context.find_var(childNodeAssign.Text))
+                {
+                    throw new IntepreterException("Переменная не описана: строка " + childNodeAssign.Line);
+                }
+                //AstNodeType t = node.GetChild(1).Type;
+                ExecuteNode(node.GetChild(1),context);
                 break;
             
             case AstNodeType.REPEAT:
@@ -263,12 +278,18 @@ namespace MathExpr
                 break;
             case AstNodeType.WHILE:
                 break;
+
             case AstNodeType.IF:
                 break;
+            
+            case AstNodeType.COMPARE:
+                break;
+
             case AstNodeType.ADD:
                 for (int i = 0; i < node.ChildCount; i++)
                 {
                     CommonTree childNode = (CommonTree)node.GetChild(i);
+                    
 
                 }
                 break;

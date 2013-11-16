@@ -3,8 +3,8 @@
 var
 	a,c:string;
 	b:integer;
-
-
+	
+	dd: real;
 begin
 
 
@@ -13,13 +13,13 @@ procedure name(x:real; j:integer);
 var
 	a:integer;
 	f:real;
+	
 begin
- dd:=44;
+ dd:=44 + 1;
  end;
 
- 
 
- name(25,35);
+ name(A,35,2);
 
 		function sdasdasd(x:real; j:real) : real;
 		var
@@ -35,11 +35,13 @@ function cos(s:integer) : real;
 var
 	a:integer;
 	f:real;
+	as : integer;
 begin
  dd:=44;
 		function sdasdasd(x:real; j:real) : real;
 		var
 			dd:integer;
+			
 		begin
 			dd:=44 + 44;
 			dd:=44;
@@ -53,13 +55,8 @@ end;
 
 
 
-	m := "ss";
-	A := 7.5;  
-	B := 10;
-
-	A:=A + 2 ;
-
-	sin(sin(1));
+	
+	
 
 	repeat
 		inc(A);

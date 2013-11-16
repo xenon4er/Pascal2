@@ -16,11 +16,16 @@ namespace MathExpr
 
       public VarType varType;
       public LinkedList<Parametr> parametrs; // list of parametrs
-
+      
+      public string stringValue = "";
+      public int intValue = 0;
+      public float realValue = 0;
       /*
     public int Type {
       get;
     }
        */
+
+      
   }
 }
