@@ -40,3 +40,5 @@ C:\Users\Alex\Desktop\Pascal-master\bin\Debug\MathExpr.pdb
 C:\Users\Alex\Desktop\Pascal-master\bin\Debug\Antlr3.Runtime.dll
 C:\Users\Alex\Desktop\Pascal-master\bin\Debug\Antlr3.Runtime.xml
 C:\Users\Alex\Desktop\Pascal-master\obj\Debug\MathExpr.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Pascal2\obj\Debug\MathExpr.exe
+C:\Users\Alex\Documents\GitHub\Pascal2\obj\Debug\MathExpr.pdb
