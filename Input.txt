@@ -1,0 +1,85 @@
+;;; ;;;;;
+
+var
+	a,c:string;
+	b:integer;
+
+
+begin
+
+
+/* sadsdadsad dadasdgadjhsagdhgsdhsajhdgagdjsagdjhsdhsadjg*/
+procedure name(x:real; j:integer);
+var
+	a:integer;
+	f:real;
+begin
+ dd:=44;
+ end;
+
+ 
+
+ name(25,35);
+
+		function sdasdasd(x:real; j:real) : real;
+		var
+			dd:integer;
+		begin
+			
+			dd:=44 + 44;
+			dd:=44;
+			dd:=44;
+			dd:=44;
+		end;
+function cos(s:integer) : real;
+var
+	a:integer;
+	f:real;
+begin
+ dd:=44;
+		function sdasdasd(x:real; j:real) : real;
+		var
+			dd:integer;
+		begin
+			dd:=44 + 44;
+			dd:=44;
+			dd:=44;
+			dd:=44;
+		end;
+
+
+	as:=22;
+end;
+
+
+
+	m := "ss";
+	A := 7.5;  
+	B := 10;
+
+	A:=A + 2 ;
+
+	sin(sin(1));
+
+	repeat
+		inc(A);
+		inc(A);
+	until A<10;
+
+	for i:=100 to 1000 do begin
+	  A := A + 1;
+	  
+	end;
+
+	while (A < 89) do
+	begin
+	  if t(678) and (A>2) then
+		A := A > 0;
+	end;
+end;
+
+
+
+
+
+;;;;;
